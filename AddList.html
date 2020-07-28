@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/addlist.css">
+    <title>Add List</title>
+</head>
+<body>
+    <div>
+        <div class="todo-body">
+            <div class="container">
+                <div class="todo-heading">
+                    <h1><span style="color:#080808"><b>Tasks </b></span><span style="color:gray">Lists</span></h1>
+                    <button class="btn" onclick="document.location='AddList.html'"><i class="fas fa-plus"></i></button>
+                    <h4 class="text">Add list</h4>
+                </div>
+            </div>
+            <div class="todo-card-container">
+                <div class="todo-card">
+                    <h3><a href="List.html">Trip to Paris</a></h3>
+                    <div class="todo-list-container">
+                        <hr>
+                        <p><s>completed Task</s></p>
+                        <div class="check">
+                            <input type="checkbox" id="todo_1">
+                            <label for="todo_1" id="todo_1">
+                             pending tasks
+                          </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="todo-card">
+                    <h3>My Todo List</h3>
+                    <div class="todo-list-container">
+                        <hr>
+                        <p><s>completed Task</s></p>
+                        <div class="check">
+                            <input type="checkbox" id="todo_1">
+                            <label for="todo_1" id="todo_1">
+                             pending tasks
+                          </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="todo-card">
+                    <h3>My Todo List</h3>
+                    <div class="todo-list-container">
+                        <hr>
+                        <p><s>completed Task</s></p>
+                        <div class="check">
+                            <input type="checkbox" id="todo_1">
+                            <label for="todo_1" id="todo_1">
+                                 pending tasks
+                              </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" >
+        <div class="Newbox">
+            <p>Add New List</p>
+            <form action="" method="get" class="form-example">
+                <div>
+                    <label for="name"></label>
+                    <input class="form-example" type="text" name="name" id="name" required><br><br>
+                    <button class="add">ADD</button>
+                    
+                    <button class="add" onclick="document.location='index.html'">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

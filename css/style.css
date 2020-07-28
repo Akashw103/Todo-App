@@ -1,0 +1,130 @@
+.todo-body {
+    width: 60%;
+    height: auto;
+    margin-top: 10%;
+    margin: 0 auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    margin: 20px 50px;
+}
+
+.todo-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgb(233, 32, 32);
+    color: white;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 600px;
+}
+
+span {
+    font-weight: normal;
+}
+
+.text {
+    position: absolute;
+    left: 640px;
+    display: inline-block;
+    margin: none;
+    color: gray;
+}
+
+.todo-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.todo-card {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 5px 10px 10px #cfcbcb;
+    border: 0.02px solid red;
+    color: rgb(233, 32, 32);
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+hr {
+    width: 80%;
+    text-align: right;
+    margin-right: 0;
+    color: gray;
+}
+
+.todo-list-container {
+    display: block;
+}
+
+#todo_1 {
+    color: gray;
+}
+
+.check {
+    text-align: left;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(233, 32, 32);
+}
+
+a:visited {
+    color: rgb(233, 32, 32);
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .todo-body {
+        width: 85%;
+    }
+    .container {
+        position: relative;
+        margin: 10px 10px;
+    }
+    .btn {
+        position: relavtive;
+        left: 240px;
+    }
+    .text {
+        display: none;
+    }
+    .todo-card-container {
+        flex-direction: column;
+       
+    }
+    .todo-card {
+        width: 90%;
+        height: 80px;
+        margin-bottom: 5vh;
+        margin-left: 10px;
+      
+    }
+    .todo-list-container {
+        display: none;
+    }
+    a:link {
+        text-decoration: none;
+        color: rgb(233, 32, 32);
+    }
+    a:visited {
+        color: rgb(233, 32, 32);
+        text-decoration: none;
+    }
+}
